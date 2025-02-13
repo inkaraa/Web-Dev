@@ -1,0 +1,21 @@
+.gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gallery-container img {
+    width: 300px;
+    object-fit: scale-down;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 10px;
+  }
+  
+  .arrow {
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+  }

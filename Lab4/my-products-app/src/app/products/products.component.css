@@ -1,0 +1,93 @@
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: calc(400px * 4 + 20px * 3);
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .kaspi {
+    background-color: rgb(243, 71, 51);
+    color: white;
+    width: 6em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  h3 {
+    width: 50px;
+    margin: auto;
+  }
+
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #efefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: .2s;
+  }
+  .product-card:hover {
+    background: #fff;
+    box-shadow: 0 12px 10px rgba(0,0,0,0.1);
+  }
+  
+  .product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #whatsapp {
+    background: rgb(17, 235, 17);
+    color: white;
+    fill: white;
+    border-radius: 2px;
+    border: 0 black;
+    text-align: center;
+    transition: .2s;
+  }
+  #whatsapp:hover {
+    background-color: rgb(16, 202, 16);
+  }
+  #whatsapp:active {
+    background-color: rgb(13, 166, 13);
+  }
+
+  #telegram {
+    background: rgb(17, 155, 235);
+    color: white;
+    fill: white;
+    border-radius: 2px;
+    border: 0 black;
+    text-align: center;
+    transition: .2s;
+  }
+  #telegram:hover {
+    background-color: rgb(13, 134, 204);
+  }
+  #telegram:active {
+    background-color: rgb(12, 106, 160);
+  }
+  .share-buttons {
+    justify-content: space-between;
+  }
+  .product-card h2,
+  .product-card p,
+  .product-card {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
